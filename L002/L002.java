@@ -7,9 +7,11 @@
  *     ListNode(int val) { this.val = val; }
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
- */
-// Leetcode 002 -> https://leetcode.com/problems/add-two-numbers/
-// Jayden Yu , 2020-09-18 03:45 AEST
+ *
+ * Leetcode 002 -> https://leetcode.com/problems/add-two-numbers/
+ * Jayden Yu , 2020-09-18 03:45 AEST
+*/
+
 
 class Solution {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
