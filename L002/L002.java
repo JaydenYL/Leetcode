@@ -14,6 +14,7 @@
 
 
 class Solution {
+	
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		int num = l1.val + l2.val;
 		ListNode head = new ListNode(num%10);
@@ -46,4 +47,5 @@ class Solution {
 		}
 		return head;
 	}
+	
 }
