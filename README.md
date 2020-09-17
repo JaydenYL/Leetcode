@@ -5,4 +5,5 @@ begin to review on leetcode
 
 first time review list : 
 
-https://www.educative.io/courses/grokking-the-coding-interview?aff=K7qB
+大家都是如何刷 LeetCode 的？ - 袁广鑫的回答 - 知乎 https://www.zhihu.com/question/280279208/answer/1118675237
+
