@@ -15,6 +15,7 @@
  *
  */
 class Solution {
+	
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		ListNode cur1 = head;
 		ListNode cur2 = head;
@@ -33,3 +34,4 @@ class Solution {
 		return head;
 		
 	}
+}
