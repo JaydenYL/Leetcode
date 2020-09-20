@@ -10,7 +10,11 @@
  *	Jayden Yu 2020-09-20 04:45 AEST
  *	Leetcode 003, use single pointer 
  */
+
+
 class Solution {
+	
+	
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		int count = 0, aim = getlength(head) - n;
 		if (aim == 0){
@@ -26,6 +30,8 @@ class Solution {
 		return head ;
 		
 	}
+	
+	
 	public int getlength(ListNode h){
 		int len = 0;
 		while (h != null){
@@ -35,4 +41,5 @@ class Solution {
 		
 		return len;
 	}
+	
 }
