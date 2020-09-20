@@ -28,7 +28,6 @@ class Solution {
 		cur.next = cur.next.next;
 		
 		return head ;
-		
 	}
 	
 	
