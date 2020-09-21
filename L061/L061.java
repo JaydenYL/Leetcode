@@ -13,8 +13,10 @@
  *
  */
 
+
 class Solution {
 	public ListNode rotateRight(ListNode head, int k) {
+		
 		if (k == 0 || head == null){
 			return head;
 		}
