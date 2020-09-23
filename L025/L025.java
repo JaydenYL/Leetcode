@@ -20,13 +20,10 @@ class Solution {
 			if(i == 0){
 				tmp = partReverse(head, k, null);
 				new_head = tmp[0];
-				cur = tmp[1];
-			}if(i >=1){
+			}else {
 				tmp = partReverse(cur.next, k, cur);
-				cur = tmp[1];
-				// ------
 			}
-			
+			cur = tmp[1];
 			i++;
 		}
 		return new_head;
