@@ -28,18 +28,6 @@ class Solution {
 		
 		copymap.put(head, hd);
 		copymap.put(null, null);
-		// if(!copymap.containsKey(cur.next)){
-		//     tem_next = new Node(cur.next.val);   
-		//     copycur.next = tem_next;
-		//     copymap.put(cur.next, copycur.next);
-		// }
-		// if(!copymap.containsKey(cur.random)){
-		//     tem_rand = new Node(cur.random.val);
-		//     copycur.random = tem_rand;
-		//     copymap.put(cur.random, copycur.random);
-		// }
-		// cur = cur.next;
-		// copycur = copycur.next;
 		
 		while(cur != null ){
 			if (copymap.containsKey(cur.next)){
