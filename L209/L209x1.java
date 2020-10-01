@@ -1,6 +1,5 @@
 class Solution {
 	
-
 	public int minSubArrayLen(int s, int[] nums) {
 		if (nums == null || nums.length == 0){
 			return 0;
@@ -8,6 +7,7 @@ class Solution {
 		if (nums.length == 1){
 			return (nums[0] == s) ? 1 : 0;
 		}
+		
 		int lf = 0;
 		int rt = 0;
 		int sum = nums[0];
@@ -25,13 +25,13 @@ class Solution {
 					sum -= nums[lf++];
 				}
 			} else  {
-				if(rt == nums.length -1){
+				if(rt == nums.length - 1){
 					break;
 				}
 				sum += nums[++rt];
-				
 			} 
 		}
+		
 		return (min_len == nums.length+1) ? 0 : min_len;
 	}
 }
