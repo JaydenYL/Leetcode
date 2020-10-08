@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "（八）怀疑和伤感"
-permalink: /test/
+permalink: /8th/
 ---
 
 
 
 
 
-## （八）怀疑与伤感——生命如何从虚无中确立自己？ Paid
+## （八）怀疑与伤感——生命如何从虚无中确立自己？
 
 Original 千叶映 死理性派 *8/13*
 
