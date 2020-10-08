@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "（八）怀疑和伤感"
-permalink: /test
+permalink: /test/
 ---
 
 
